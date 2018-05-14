@@ -1,13 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<!--Import custom styling-->
+	<link type="text/css" rel="stylesheet" href="css/styles.css"/>
+
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	
 	<meta charset="UTF-8">
-	<title>Hello World</title>
+	<title>Zachary Lockner</title>
 </head>
 <body>
 
-	<h1>Hello World!</h1>
-	<a href="http://www.google.com/">Google</a>
+	<!-- Navbar -->
+	<nav class="z-depth-3 custom-navbar">
+		<div class="nav-wrapper">
+			<a href="#!" class="brand-logo">Zachary Lockner</a>
+			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="#">About</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">Skills</a></li>
+				<li><a href="#">Experience</a></li>
+				<li><a href="#">Education</a></li>
+				<li><a href="#">Resume</a></li>
+			</ul>
+		<div>
+	</nav>
 
+	<ul class="sidenav" id="mobile-demo">
+		<li><a href="#">About</a></li>
+		<li><a href="#">Projects</a></li>
+		<li><a href="#">Skills</a></li>
+		<li><a href="#">Experience</a></li>
+		<li><a href="#">Education</a></li>
+		<li><a href="#">Resume</a></li>
+	</ul>
+
+	<!-- about div, full screen, centered -->
+	<div id="about" class="section scrollspy bg1">
+		<div class="container">
+			<div class="card-panel">
+				<h4>About Me</h4>
+				<p>Hi, I'm Zach Lockner.  I am a full stack web developer with an interest in developing products to help people create things.  I have developed my communication and problem solving skills in my previous career.  I am passionate about solving problems, and draw on knowledge from broad interests to create innovative solutions.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- projects div, full screen or greater, with cards -->
+	<div id="projects" class="section scrollspy bg2">
+		<div class="container">
+			<h4>Projects</h4>
+			<div class="row">
+				<div class="col s4">
+					<div class="card small">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="images/office.jpg">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator">Card Title<i class="material-icons right">more_vert</i></span>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+							<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col s4">
+					<div class="card small">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="images/office.jpg">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator">Card Title<i class="material-icons right">more_vert</i></span>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+							<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- skills div, again, full screen, with cards -->
+	<div id="skills" class="section scrollspy bg3">
+		<div class="container">
+			<h4>Skills</h4>
+
+		</div>
+	</div>
+
+	<!-- experience div, full screen, with cards -->
+	<div id="experience" class="section scrollspy bg2">
+		<div class="container">
+			<div class="card-panel">
+				<h4>Experience</h4>
+				<div class="card-panel">
+					<span>Wells Fargo Home Mortgage</span>
+					<span>Minneapolis, MN</span>
+					<span>Aug 2015 - Nov 2017</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- education div, full screen, with cards -->
+	<div id="education" class="section scrollspy bg3">
+		<div class="container">
+			<div class="card-panel">
+				<h4>Education</h4>
+				<div class="card-panel">
+					<span>University of Saint Thomas</span>
+					<span>Saint Paul, MN</span>
+					<span>BA in Finance and Economics</span>
+					<span>Sep 2011 - May 2015</span>
+				</div>
+				<div class="card-panel">
+					<span>University of Minnesota</span>
+					<span>Saint Paul, MN</span>
+					<span>Certificate in Full Stack Web Development</span>
+					<span>Nov 2017 - May 2018</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--JavaScript at end of body for optimized loading-->
+	<script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>

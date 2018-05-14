@@ -1,0 +1,64 @@
+/*
+maroon {
+	color: rgb(70,0,0);
+	background-color: #460000; 
+}
+
+navy {
+	color: rgb(10,30,61);
+	background-color: #0a1e3d;
+}
+
+gold {
+	color: rgb(160,131,40);
+	background-color: #a08328;
+}
+*/
+
+
+.custom-navbar {
+	background-color: #460000;
+	color: rgb(10,30,61);
+	position: fixed;
+	z-index: 1;
+}
+
+html, body {
+	height: 100%;
+}
+
+.bg1 {
+	background-image: url(../nelly-volkovich-16093-unsplash.jpg) ;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	overflow: hidden;
+	
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+}
+
+.bg2 {
+	height: 100%;
+	overflow: hidden;
+	min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	background-color: #0a1e3d;
+}
+
+.bg3 {
+	height: 100%;
+	overflow: hidden;
+	min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	background-color: #a08328;
+}
