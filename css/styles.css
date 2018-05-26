@@ -62,3 +62,41 @@ html, body {
 	height: auto;
 	background-color: #a08328;
 }
+
+.graph {
+	padding: 20px;
+	width: 100%;
+}
+
+.bar {
+	background-color: #a08328;
+	font-size: 20px;
+	margin: 10px;
+	padding: 8px;
+}
+
+.bar-20 {
+	width: 20%;
+}
+
+.bar-30 {
+	width: 30%;
+}
+
+.bar-40 {
+	width: 40%;
+}
+
+.bar-50 {
+	width: 50%;
+}
+
+.bar-60 {
+	width: 60%;
+}
+
+.skill-level {
+	float: right;
+}
+
+
