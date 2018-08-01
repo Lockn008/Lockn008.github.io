@@ -20,34 +20,36 @@
 	<!-- Navbar -->
 	<nav class="z-depth-3 custom-navbar" style="z-index: 2">
 		<div class="nav-wrapper">
-			<a href="#!" class="brand-logo">Zachary Lockner</a>
+			<a href="#about" class="brand-logo" style="padding-left: 20px">Zachary Lockner</a>
 			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 			<ul class="right hide-on-med-and-down">
-				<li><a href="#">About</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Skills</a></li>
-				<li><a href="#">Experience</a></li>
-				<li><a href="#">Education</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#education">Education</a></li>
 				<li><a href="#">Resume</a></li>
 			</ul>
 		<div>
 	</nav>
 
 	<ul class="sidenav" id="mobile-demo">
-		<li><a href="#">About</a></li>
-		<li><a href="#">Projects</a></li>
-		<li><a href="#">Skills</a></li>
-		<li><a href="#">Experience</a></li>
-		<li><a href="#">Education</a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#projects">Projects</a></li>
+		<li><a href="#skills">Skills</a></li>
+		<li><a href="#experience">Experience</a></li>
+		<li><a href="#education">Education</a></li>
 		<li><a href="#">Resume</a></li>
 	</ul>
 
 	<!-- about div, full screen, centered -->
 	<div id="about" class="section scrollspy bg valign-wrapper">
 		<div class="container">
-			<div class="card-panel">
+			<div class="card-panel bg3">
 				<h4>About Me</h4>
-				<p>Hi, I'm Zach Lockner.  I am a full stack web developer with an interest in developing products to help people create things.  I have developed my communication and problem solving skills in my previous career.  I am passionate about solving problems, and draw on knowledge from broad interests to create innovative solutions.</p>
+				<div class="card-panel">
+					<p>Hi, I'm Zach Lockner.  I am a full stack web developer with an interest in developing products to help people create things.  I have developed my communication and problem solving skills in my previous career.  I am passionate about solving problems, and draw on knowledge from broad interests to create innovative solutions.</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -55,150 +57,151 @@
 	<!-- projects div, full screen or greater, with cards -->
 	<div id="projects" class="section scrollspy bg valign-wrapper">
 		<div class="container">
-			<h4>Projects</h4>
-			<div class="row">
-				<div class="col s4">
-					<div class="card small">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="train-scheduler.jpg">
+			<div class="card-panel bg3">
+				<h4>Projects</h4>
+				<div class="row">
+					<div class="col s4">
+						<div class="card small">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator">Agility<i class="material-icons right">more_vert</i></span>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Giphy Animals<i class="material-icons right">close</i></span>
+								<p>(In Progress) An app allowing multiple users to collaborate on projects and priortize tasks</p>
+								<ul>
+									<li>React</li>
+									<li>Firebase</li>
+									<li>Bootstrap</li>
+								</ul>
+								<p><a href="#">Site</a></p>
+								<p><a href="https://github.com/Lockn008/agility">Github</a></p>
+							</div>
 						</div>
-						<div class="card-content">
-							<span class="card-title activator">Train Scheduler<i class="material-icons right">more_vert</i></span>
-						</div>
-						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Train Scheduler<i class="material-icons right">close</i></span>
-							<p>A simple app to display train departure times</p>
-							<ul>
-								<li>Firebase</li>
-							</ul>
-							<p><a href="https://lockn008.github.io/Train-Scheduler/">Site</a></p>
-							<p><a href="https://github.com/Lockn008/Train-Scheduler">Github</a></p>
+					</div>
+					<div class="col s4">
+						<div class="card small">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="train-scheduler.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator">Train Scheduler<i class="material-icons right">more_vert</i></span>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Train Scheduler<i class="material-icons right">close</i></span>
+								<p>A simple app to display train departure times</p>
+								<ul>
+									<li>Firebase</li>
+								</ul>
+								<p><a href="https://lockn008.github.io/Train-Scheduler/">Site</a></p>
+								<p><a href="https://github.com/Lockn008/Train-Scheduler">Github</a></p>
 
+							</div>
+						</div>
+					</div>
+					<div class="col s4">
+						<div class="card small">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="giphy-animals.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator">Giphy Animals<i class="material-icons right">more_vert</i></span>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Giphy Animals<i class="material-icons right">close</i></span>
+								<p>A simple app to show access images and information from Giphy</p>
+								<ul>
+									<li>APIs</li>
+									<li>jQuery</li>
+								</ul>
+								<p><a href="https://lockn008.github.io/Giphy-Animals/">Site</a></p>
+								<p><a href="https://github.com/Lockn008/Giphy-Animals">Github</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="col s4">
+						<div class="card small">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="giphy-animals.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator">Giphy Animals<i class="material-icons right">more_vert</i></span>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Giphy Animals<i class="material-icons right">close</i></span>
+								<p>A simple app to show access images and information from Giphy</p>
+								<ul>
+									<li>APIs</li>
+									<li>jQuery</li>
+								</ul>
+								<p><a href="https://lockn008.github.io/Giphy-Animals/">Site</a></p>
+								<p><a href="https://github.com/Lockn008/Giphy-Animals">Github</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="col s4">
+						<div class="card small">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="giphy-animals.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator">Giphy Animals<i class="material-icons right">more_vert</i></span>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Giphy Animals<i class="material-icons right">close</i></span>
+								<p>A simple app to show access images and information from Giphy</p>
+								<ul>
+									<li>APIs</li>
+									<li>jQuery</li>
+								</ul>
+								<p><a href="https://lockn008.github.io/Giphy-Animals/">Site</a></p>
+								<p><a href="https://github.com/Lockn008/Giphy-Animals">Github</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="col s4">
+						<div class="card small">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="giphy-animals.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator">Giphy Animals<i class="material-icons right">more_vert</i></span>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Giphy Animals<i class="material-icons right">close</i></span>
+								<p>A simple app to show access images and information from Giphy</p>
+								<ul>
+									<li>APIs</li>
+									<li>jQuery</li>
+								</ul>
+								<p><a href="https://lockn008.github.io/Giphy-Animals/">Site</a></p>
+								<p><a href="https://github.com/Lockn008/Giphy-Animals">Github</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="col s4">
+						<div class="card small">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="giphy-animals.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator">Giphy Animals<i class="material-icons right">more_vert</i></span>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Giphy Animals<i class="material-icons right">close</i></span>
+								<p>A simple app to show access images and information from Giphy</p>
+								<ul>
+									<li>APIs</li>
+									<li>jQuery</li>
+								</ul>
+								<p><a href="https://lockn008.github.io/Giphy-Animals/">Site</a></p>
+								<p><a href="https://github.com/Lockn008/Giphy-Animals">Github</a></p>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col s4">
-					<div class="card small">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="giphy-animals.jpg">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator">Giphy Animals<i class="material-icons right">more_vert</i></span>
-						</div>
-						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Giphy Animals<i class="material-icons right">close</i></span>
-							<p>A simple app to show access images and information from Giphy</p>
-							<ul>
-								<li>APIs</li>
-								<li>jQuery</li>
-							</ul>
-							<p><a href="https://lockn008.github.io/Giphy-Animals/">Site</a></p>
-							<p><a href="https://github.com/Lockn008/Giphy-Animals">Github</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col s4">
-					<div class="card small">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="giphy-animals.jpg">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator">Giphy Animals<i class="material-icons right">more_vert</i></span>
-						</div>
-						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Giphy Animals<i class="material-icons right">close</i></span>
-							<p>A simple app to show access images and information from Giphy</p>
-							<ul>
-								<li>APIs</li>
-								<li>jQuery</li>
-							</ul>
-							<p><a href="https://lockn008.github.io/Giphy-Animals/">Site</a></p>
-							<p><a href="https://github.com/Lockn008/Giphy-Animals">Github</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col s4">
-					<div class="card small">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="giphy-animals.jpg">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator">Giphy Animals<i class="material-icons right">more_vert</i></span>
-						</div>
-						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Giphy Animals<i class="material-icons right">close</i></span>
-							<p>A simple app to show access images and information from Giphy</p>
-							<ul>
-								<li>APIs</li>
-								<li>jQuery</li>
-							</ul>
-							<p><a href="https://lockn008.github.io/Giphy-Animals/">Site</a></p>
-							<p><a href="https://github.com/Lockn008/Giphy-Animals">Github</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col s4">
-					<div class="card small">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="giphy-animals.jpg">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator">Giphy Animals<i class="material-icons right">more_vert</i></span>
-						</div>
-						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Giphy Animals<i class="material-icons right">close</i></span>
-							<p>A simple app to show access images and information from Giphy</p>
-							<ul>
-								<li>APIs</li>
-								<li>jQuery</li>
-							</ul>
-							<p><a href="https://lockn008.github.io/Giphy-Animals/">Site</a></p>
-							<p><a href="https://github.com/Lockn008/Giphy-Animals">Github</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col s4">
-					<div class="card small">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="giphy-animals.jpg">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator">Giphy Animals<i class="material-icons right">more_vert</i></span>
-						</div>
-						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Giphy Animals<i class="material-icons right">close</i></span>
-							<p>A simple app to show access images and information from Giphy</p>
-							<ul>
-								<li>APIs</li>
-								<li>jQuery</li>
-							</ul>
-							<p><a href="https://lockn008.github.io/Giphy-Animals/">Site</a></p>
-							<p><a href="https://github.com/Lockn008/Giphy-Animals">Github</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col s4">
-					<div class="card small">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="giphy-animals.jpg">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator">Giphy Animals<i class="material-icons right">more_vert</i></span>
-						</div>
-						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Giphy Animals<i class="material-icons right">close</i></span>
-							<p>A simple app to show access images and information from Giphy</p>
-							<ul>
-								<li>APIs</li>
-								<li>jQuery</li>
-							</ul>
-							<p><a href="https://lockn008.github.io/Giphy-Animals/">Site</a></p>
-							<p><a href="https://github.com/Lockn008/Giphy-Animals">Github</a></p>
-						</div>
-					</div>
-				</div>
-
-
 			</div>
 		</div>
 	</div>
@@ -206,23 +209,25 @@
 	<!-- skills div, again, full screen, with cards -->
 	<div id="skills" class="section scrollspy bg valign-wrapper">
 		<div class="container">
-			<h4>Skills</h4>
-			<div class="card-panel">
-				<div class="graph">
-					<div class="bar bar-50">
-						<span >HTML</span><span class="skill-level">50%</span>
-					</div>
-					<div class="bar bar-40">
-						<span >CSS</span><span class="skill-level">40%</span>
-					</div>
-					<div class="bar bar-50">
-						<span >Javascript</span><span class="skill-level">50%</span>
-					</div>
-					<div class="bar bar-60">
-						<span >React</span><span class="skill-level">60%</span>
-					</div>
-					<div class="bar bar-20">
-						<span>Django</span><span class="skill-level">20%</span>
+			<div class="card-panel bg3">
+				<h4>Skills</h4>
+				<div class="card-panel">
+					<div class="graph">
+						<div class="bar bar-50">
+							<span >HTML</span><span class="skill-level">50%</span>
+						</div>
+						<div class="bar bar-40">
+							<span >CSS</span><span class="skill-level">40%</span>
+						</div>
+						<div class="bar bar-50">
+							<span >Javascript</span><span class="skill-level">50%</span>
+						</div>
+						<div class="bar bar-60">
+							<span >React</span><span class="skill-level">60%</span>
+						</div>
+						<div class="bar bar-20">
+							<span>Django</span><span class="skill-level">20%</span>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -232,7 +237,7 @@
 	<!-- experience div, full screen, with cards -->
 	<div id="experience" class="section scrollspy bg valign-wrapper">
 		<div class="container">
-			<div class="card-panel">
+			<div class="card-panel bg3">
 				<h4>Experience</h4>
 				<div class="card-panel">
 					<span>Wells Fargo Home Mortgage</span>
@@ -246,7 +251,7 @@
 	<!-- education div, full screen, with cards -->
 	<div id="education" class="section scrollspy bg valign-wrapper">
 		<div class="container">
-			<div class="card-panel">
+			<div class="card-panel bg3">
 				<h4>Education</h4>
 				<div class="card-panel">
 					<span>University of Saint Thomas</span>
